@@ -22,5 +22,5 @@ while (stars < 0 || stars>5 )
 }
 for(var i=0 ; i<stars;i++)
 {
-  document.write("<img src= 'https://pngimg.com/uploads/star/star_PNG1597.png' alt='star'>")
+  document.write("<img src= 'https://pngimg.com/uploads/star/star_PNG1597.png' alt='star'id='star-img'>")
 }

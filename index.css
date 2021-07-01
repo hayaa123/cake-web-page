@@ -1,0 +1,44 @@
+header {background-color: #FC74DB;}
+
+main {background-color: #FEC9F1;}
+
+#logo-name {
+display :inline-block;
+color : white ;
+float : left;
+}
+
+#logo-img {
+  border-radius: 50%;
+  hight : 200px;
+  width : 150px;
+  border-style: solid;
+  border-color: black;
+}
+
+header li {
+  display :inline-block;
+  border-style: solid;
+  border-color: white;
+  
+}
+footer{
+  background-color: #FEC9F1;
+}
+
+div {
+  display :inline-block;
+ 
+
+}
+#list-div {
+  float:right ;
+}
+a{
+  text-decoration:None; 
+  color :white;
+}
+#star-img {
+  hight : 100px;
+  width : 100px;
+}
