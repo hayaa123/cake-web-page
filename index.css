@@ -20,7 +20,7 @@ header li {
   display :inline-block;
   border-style: solid;
   border-color: white;
-  
+  margin: 10px;
 }
 footer{
   background-color: #FEC9F1;

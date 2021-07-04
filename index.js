@@ -16,11 +16,15 @@
 // document.body.style.backgroundColor = "pink";
 
 var stars = prompt ("how many stars you will rate us ?")
-while (stars < 0 || stars>5 )
-{
-  var stars = prompt ("can you put a positive number beween 0 and 5?")
+function rate(stars){
+  while (stars < 0 || stars>5 )
+  {
+    var stars = prompt ("can you put a positive number beween 0 and 5?")
+  }
+  for(var i=0 ; i<stars;i++)
+  {
+    document.write("<img src= 'https://pngimg.com/uploads/star/star_PNG1597.png' alt='star'id='star-img'>")
+  }
+
 }
-for(var i=0 ; i<stars;i++)
-{
-  document.write("<img src= 'https://pngimg.com/uploads/star/star_PNG1597.png' alt='star'id='star-img'>")
-}
+rate(stars)
